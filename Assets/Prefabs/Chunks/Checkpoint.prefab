@@ -258,6 +258,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Checkpoint
       objectReference: {fileID: 0}
+    - target: {fileID: 5113650014518233541, guid: 2ec0a0889fcba4cdbb94e272d9c62be1, type: 3}
+      propertyPath: coinSpawnChance
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5113650014518233541, guid: 2ec0a0889fcba4cdbb94e272d9c62be1, type: 3}
+      propertyPath: appleSpawnChance
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8134168328080687702, guid: 2ec0a0889fcba4cdbb94e272d9c62be1, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -348,6 +356,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Checkpoint
   checkpointTimeExtension: 5
+  obstacleDecreaseTimeAmount: 0.2
 --- !u!65 &1326204839880514881
 BoxCollider:
   m_ObjectHideFlags: 0
