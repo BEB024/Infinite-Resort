@@ -5815,10 +5815,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LevelGenerator
   cameraController: {fileID: 745107579}
-  chunkPrefab: {fileID: 1793867423848199347, guid: 2ec0a0889fcba4cdbb94e272d9c62be1, type: 3}
+  chunkPrefabs:
+  - {fileID: 1793867423848199347, guid: 2ec0a0889fcba4cdbb94e272d9c62be1, type: 3}
+  - {fileID: 1335652186488908734, guid: f714eb81bdb9844ac98864dee15ea208, type: 3}
+  - {fileID: 1335652186488908734, guid: 9d9a8aebc9b554a72af4f1ec551b52af, type: 3}
+  - {fileID: 1335652186488908734, guid: e106ac46a18164b978016301de52b648, type: 3}
+  - {fileID: 1793867423848199347, guid: 2ec0a0889fcba4cdbb94e272d9c62be1, type: 3}
+  - {fileID: 1793867423848199347, guid: 2ec0a0889fcba4cdbb94e272d9c62be1, type: 3}
+  checkpointChunkPrefab: {fileID: 1335652186488908734, guid: 4d15d85429aad4b7bb69793afebf9b7d, type: 3}
   chunkParent: {fileID: 1291841666}
   scoreManager: {fileID: 1822609762}
   startingChunksAmount: 12
+  checkpointChunkInterval: 8
   chunkLength: 10
   moveSpeed: 8
   minMoveSpeed: 2
@@ -6520,6 +6528,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 619bb5b5122824eaa9c824c5b29b687c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ScoreManager
+  gameManager: {fileID: 1822609764}
   scoreText: {fileID: 794774646}
 --- !u!4 &1822609763
 Transform:
@@ -6551,7 +6560,7 @@ MonoBehaviour:
   playerController: {fileID: 633168096}
   timeText: {fileID: 274171320}
   gameOverText: {fileID: 547816943}
-  startTime: 5
+  startTime: 60
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
