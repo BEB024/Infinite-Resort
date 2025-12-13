@@ -6,6 +6,8 @@ public class GameManager : MonoBehaviour
     [SerializeField] PlayerController playerController;
     [SerializeField] TMP_Text timeText;
     [SerializeField] GameObject gameOverText;
+    [SerializeField] GameObject restartButton;
+    [SerializeField] GameObject quitButton;
     [SerializeField] float startTime = 5f;
 
     float timeLeft;
@@ -46,6 +48,8 @@ public class GameManager : MonoBehaviour
         gameOver = true;
         playerController.enabled = false;
         gameOverText.SetActive(true);
+        restartButton.SetActive(true);
+        quitButton.SetActive(true);
         Time.timeScale = .1f;
     }
 }
