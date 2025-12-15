@@ -6230,6 +6230,10 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: 62f00555-ec2d-4af6-bebe-5c886c6f1fa5
     m_ActionName: 'Player/Move[/Keyboard/w,/Keyboard/s,/Keyboard/a,/Keyboard/d]'
+  - m_PersistentCalls:
+      m_Calls: []
+    m_ActionId: 5c6f24c0-4136-4183-afb5-56897bcf9ad3
+    m_ActionName: 'Player/Jump[/Keyboard/quote]'
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Player
@@ -6272,7 +6276,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 0
+  m_UseGravity: 1
   m_IsKinematic: 1
   m_Interpolate: 1
   m_Constraints: 0
