@@ -5,6 +5,7 @@ public class MainMenuManager : MonoBehaviour
 {
     [SerializeField] GameObject mainPanel;
     [SerializeField] GameObject storyPanel;
+    [SerializeField] GameObject optionsPanel;
     [SerializeField] string mainLevelSceneName = "MainLevel";
 
     public void StartEndless()
@@ -19,9 +20,16 @@ public class MainMenuManager : MonoBehaviour
         storyPanel.SetActive(true);
     }
 
+    public void ShowOptions()
+    {
+        mainPanel.SetActive(false);
+        optionsPanel.SetActive(true);
+    }
+
     public void ReturnToMain()
     {
         storyPanel.SetActive(false);
+        optionsPanel.SetActive(false);
         mainPanel.SetActive(true);
     }
 
