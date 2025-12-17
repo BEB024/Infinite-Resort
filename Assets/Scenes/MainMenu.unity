@@ -2460,6 +2460,9 @@ MonoBehaviour:
   optionsPanel: {fileID: 42977141}
   levelsPanel: {fileID: 482779792}
   mainLevelSceneName: MainLevel
+  easyLevelSceneName: EasyLevel
+  mediumLevelSceneName: MediumLevel
+  hardLevelSceneName: HardLevel
 --- !u!82 &662501370
 AudioSource:
   m_ObjectHideFlags: 0
@@ -4681,7 +4684,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 662501369}
         m_TargetAssemblyTypeName: MainMenuManager, Assembly-CSharp
-        m_MethodName: ReturnToMain
+        m_MethodName: StartMedium
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -7909,7 +7912,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 662501369}
         m_TargetAssemblyTypeName: MainMenuManager, Assembly-CSharp
-        m_MethodName: ReturnToMain
+        m_MethodName: StartHard
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -8117,7 +8120,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 662501369}
         m_TargetAssemblyTypeName: MainMenuManager, Assembly-CSharp
-        m_MethodName: ReturnToMain
+        m_MethodName: StartEasy
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

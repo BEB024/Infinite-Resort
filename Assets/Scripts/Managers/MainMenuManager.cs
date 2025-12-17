@@ -8,11 +8,32 @@ public class MainMenuManager : MonoBehaviour
     [SerializeField] GameObject optionsPanel;
     [SerializeField] GameObject levelsPanel;
     [SerializeField] string mainLevelSceneName = "MainLevel";
+    [SerializeField] string easyLevelSceneName = "EasyLevel";
+    [SerializeField] string mediumLevelSceneName = "MediumLevel";
+    [SerializeField] string hardLevelSceneName = "HardLevel";
 
     public void StartEndless()
     {
         Time.timeScale = 1f;
         SceneManager.LoadScene(mainLevelSceneName);
+    }
+
+    public void StartEasy()
+    {
+        Time.timeScale = 1f;
+        SceneManager.LoadScene(easyLevelSceneName);
+    }
+
+    public void StartMedium()
+    {
+        Time.timeScale = 1f;
+        SceneManager.LoadScene(mediumLevelSceneName);
+    }
+
+    public void StartHard()
+    {
+        Time.timeScale = 1f;
+        SceneManager.LoadScene(hardLevelSceneName);
     }
 
     public void ShowStory()
