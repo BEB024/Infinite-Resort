@@ -7,7 +7,7 @@ public class Chunk : MonoBehaviour
     [SerializeField] GameObject applePrefab;
     [SerializeField] GameObject coinPrefab;
 
-    [SerializeField] float appleSpawnChance = .3f;
+    [SerializeField] float appleSpawnChance = .5f;
     [SerializeField] float coinSpawnChance = .5f;
     [SerializeField] float coinSeperationLength = 2f;
 

@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 2100000, guid: 67950864b84c5db4f9eee7ca51c85571, type: 2}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 0d5771081eb9abb43b1792b52260d914, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -11914,12 +11914,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObstacleSpawner
   obstaclePrefabs:
-  - {fileID: 9144572154102676677, guid: 594342544619c4eb3bb2b78e5398abc0, type: 3}
   - {fileID: 3140284011800049239, guid: 24350f971aec74662af94de9927b47a7, type: 3}
-  - {fileID: 1023754681715216422, guid: b30ef0c0d2df64656923da88490a143d, type: 3}
-  - {fileID: 1023754681715216422, guid: c033eaffa468f46ab8949fbe21158259, type: 3}
-  - {fileID: 1023754681715216422, guid: 2c31fd94e8fd549af99970f4c927d7fe, type: 3}
-  - {fileID: 6724355222263264533, guid: 803744e57ddf24f1a8e21418a6d305cc, type: 3}
   obstacleSpawnTime: 3
   minObstacleSpawnTime: 0.2
   obstacleParent: {fileID: 1291841666}
@@ -12256,7 +12251,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: c23332d3ec8f144d3b7959931e1c2152, type: 3}
+  m_Resource: {fileID: 8300000, guid: 778aad5f548764745a47032421c238cd, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.22
   m_Pitch: 1
