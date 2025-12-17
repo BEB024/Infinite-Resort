@@ -7,8 +7,8 @@ using UnityEngine;
 public class GameSettingsSO : ScriptableObject
 {
     [Header("Audio")]
-    [Range(0.0001f, 1f)]
-    public float masterVolume = 1f;
+    [Range(0f, 20f)]
+    public float masterVolume = 0f;
 
     [Header("Display")]
     public int resolutionIndex = 0;
